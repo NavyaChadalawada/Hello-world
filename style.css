@@ -8,6 +8,11 @@ body {
     padding: 2rem;
 }
 
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 h1 {
     color: #bb86fc;
     font-size: 2.5rem;
