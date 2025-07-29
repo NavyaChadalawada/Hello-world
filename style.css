@@ -6,6 +6,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #121212;
 }
 
 h1 {
