@@ -1,7 +1,20 @@
-/* Basic dark mode styles */
+:root {
+    --background-color: #ffffff;
+    --text-color: #121212;
+    --h1-color: #bb86fc;
+    --link-color: #03dac6;
+}
+
+.dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --h1-color: #bb86fc;
+    --link-color: #03dac6;
+}
+
 body {
-    background-color: #121212;
-    color: #ffffff;
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 1.6;
     margin: 0;
@@ -9,7 +22,7 @@ body {
 }
 
 h1 {
-    color: #bb86fc;
+    color: var(--h1-color);
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
@@ -20,7 +33,7 @@ p {
 }
 
 a {
-    color: #03dac6;
+    color: var(--link-color);
     text-decoration: none;
 }
 

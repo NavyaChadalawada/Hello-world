@@ -9,5 +9,15 @@
 <body>
     <h1>Welcome to the Dark Side!</h1>
     <p>This is a simple example of a dark mode web page.</p>
+    <button id="theme-switcher">Toggle Dark Mode</button>
+
+    <script>
+        const themeSwitcher = document.getElementById('theme-switcher');
+        const body = document.body;
+
+        themeSwitcher.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
